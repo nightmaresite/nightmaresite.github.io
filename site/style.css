@@ -1,0 +1,50 @@
+body{
+  background: #010001;
+  overflow:hidden;
+}
+
+/* black 010001*/  
+/* bright red e90139 */
+/* dark red 300a13 */
+
+@font-face {
+  font-family: 'nightmare'; 
+  src: url('nightmare.ttf'); 
+}
+
+
+
+.title {
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "nightmare";
+    text-align: center;
+    width: 100%;
+
+
+
+    color: #4d4d4d;
+    font-weight: 100;
+    font-size: 180px;
+
+    text-shadow: 8px 2px #300a13;
+
+    letter-spacing: 8px;
+
+
+    /* noselect */
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+
+
+}
